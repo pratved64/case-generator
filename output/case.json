@@ -1,0 +1,163 @@
+{
+    "suspects": [
+        {
+            "id": 0,
+            "name": "Ryan Valdez",
+            "traits": [
+                {
+                    "id": 4,
+                    "name": "Deceptive",
+                    "description": "Comfortable lying and manipulating others."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 6,
+                    "description": "Stole something valuable from the victim.",
+                    "revealedUnderPressure": true
+                },
+                {
+                    "id": 3,
+                    "description": "Was embezzling money from a shared business.",
+                    "revealedUnderPressure": true
+                },
+                {
+                    "id": 9,
+                    "description": "Tampered with evidence after the crime.",
+                    "revealedUnderPressure": false
+                }
+            ],
+            "motive": null
+        },
+        {
+            "id": 1,
+            "name": "Rebecca Vincent",
+            "traits": [
+                {
+                    "id": 10,
+                    "name": "Ambitious",
+                    "description": "Driven to rise in status or control."
+                },
+                {
+                    "id": 6,
+                    "name": "Obsessive",
+                    "description": "Fixates intensely on people or goals."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 3,
+                    "description": "Was embezzling money from a shared business.",
+                    "revealedUnderPressure": true
+                }
+            ],
+            "motive": null
+        },
+        {
+            "id": 2,
+            "name": "Albert Wilson",
+            "traits": [
+                {
+                    "id": 6,
+                    "name": "Obsessive",
+                    "description": "Fixates intensely on people or goals."
+                },
+                {
+                    "id": 7,
+                    "name": "Opportunistic",
+                    "description": "Takes advantage of situations without hesitation."
+                },
+                {
+                    "id": 10,
+                    "name": "Ambitious",
+                    "description": "Driven to rise in status or control."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 8,
+                    "description": "Was at the crime scene earlier than claimed.",
+                    "revealedUnderPressure": false
+                },
+                {
+                    "id": 10,
+                    "description": "Had a hidden partnership with another suspect.",
+                    "revealedUnderPressure": true
+                }
+            ],
+            "motive": {
+                "id": 3,
+                "name": "Jealousy",
+                "weight": 0.75,
+                "traits_affinity": [
+                    {
+                        "id": 3,
+                        "name": "Insecure",
+                        "description": "Constantly doubts self-worth and fears rejection."
+                    },
+                    {
+                        "id": 6,
+                        "name": "Obsessive",
+                        "description": "Fixates intensely on people or goals."
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Jason Bush",
+            "traits": [
+                {
+                    "id": 9,
+                    "name": "Secretive",
+                    "description": "Keeps personal matters hidden at all costs."
+                },
+                {
+                    "id": 1,
+                    "name": "Greedy",
+                    "description": "Obsessed with acquiring wealth and material gain."
+                },
+                {
+                    "id": 8,
+                    "name": "Resentful",
+                    "description": "Harbors long-standing bitterness."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 8,
+                    "description": "Was at the crime scene earlier than claimed.",
+                    "revealedUnderPressure": false
+                }
+            ],
+            "motive": null
+        }
+    ],
+    "solution": {
+        "culpritID": 2,
+        "victimID": 3,
+        "motive": {
+            "id": 3,
+            "name": "Jealousy",
+            "weight": 0.75,
+            "traits_affinity": [
+                {
+                    "id": 3,
+                    "name": "Insecure",
+                    "description": "Constantly doubts self-worth and fears rejection."
+                },
+                {
+                    "id": 6,
+                    "name": "Obsessive",
+                    "description": "Fixates intensely on people or goals."
+                }
+            ]
+        },
+        "weapon": {
+            "id": 5,
+            "name": "Rope",
+            "weight": 0.65,
+            "description": "Used for strangulation or restraint."
+        }
+    }
+}

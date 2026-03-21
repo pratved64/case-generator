@@ -1,0 +1,194 @@
+{
+    "suspect_count": 4,
+    "motive_pool": [
+        {
+            "id": 1,
+            "name": "Financial Gain",
+            "weight": 0.9,
+            "traits_affinity": [
+                1,
+                4,
+                7
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Revenge",
+            "weight": 0.85,
+            "traits_affinity": [
+                2,
+                5,
+                8
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Jealousy",
+            "weight": 0.75,
+            "traits_affinity": [
+                3,
+                6
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Covering a Secret",
+            "weight": 0.8,
+            "traits_affinity": [
+                4,
+                9
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Power Ambition",
+            "weight": 0.7,
+            "traits_affinity": [
+                1,
+                10
+            ]
+        }
+    ],
+    "trait_pool": [
+        {
+            "id": 1,
+            "name": "Greedy",
+            "description": "Obsessed with acquiring wealth and material gain."
+        },
+        {
+            "id": 2,
+            "name": "Hot-headed",
+            "description": "Quick to anger and prone to impulsive actions."
+        },
+        {
+            "id": 3,
+            "name": "Insecure",
+            "description": "Constantly doubts self-worth and fears rejection."
+        },
+        {
+            "id": 4,
+            "name": "Deceptive",
+            "description": "Comfortable lying and manipulating others."
+        },
+        {
+            "id": 5,
+            "name": "Vindictive",
+            "description": "Holds grudges and seeks retaliation."
+        },
+        {
+            "id": 6,
+            "name": "Obsessive",
+            "description": "Fixates intensely on people or goals."
+        },
+        {
+            "id": 7,
+            "name": "Opportunistic",
+            "description": "Takes advantage of situations without hesitation."
+        },
+        {
+            "id": 8,
+            "name": "Resentful",
+            "description": "Harbors long-standing bitterness."
+        },
+        {
+            "id": 9,
+            "name": "Secretive",
+            "description": "Keeps personal matters hidden at all costs."
+        },
+        {
+            "id": 10,
+            "name": "Ambitious",
+            "description": "Driven to rise in status or control."
+        }
+    ],
+    "weapon_pool": [
+        {
+            "id": 1,
+            "name": "Kitchen Knife",
+            "description": "A common household blade, sharp and easily accessible.",
+            "weight": 0.9
+        },
+        {
+            "id": 2,
+            "name": "Poisoned Drink",
+            "description": "A beverage laced with a lethal substance.",
+            "weight": 0.75
+        },
+        {
+            "id": 3,
+            "name": "Blunt Object",
+            "description": "A heavy item used to deliver a fatal blow.",
+            "weight": 0.85
+        },
+        {
+            "id": 4,
+            "name": "Pistol",
+            "description": "A small firearm, quick and deadly.",
+            "weight": 0.7
+        },
+        {
+            "id": 5,
+            "name": "Rope",
+            "description": "Used for strangulation or restraint.",
+            "weight": 0.65
+        },
+        {
+            "id": 6,
+            "name": "Candlestick",
+            "description": "A heavy decorative object turned weapon.",
+            "weight": 0.6
+        }
+    ],
+    "secret_pool": [
+        {
+            "id": 1,
+            "description": "Was deeply in debt to the victim.",
+            "revealedUnderPressure": true
+        },
+        {
+            "id": 2,
+            "description": "Had a secret romantic relationship with the victim.",
+            "revealedUnderPressure": true
+        },
+        {
+            "id": 3,
+            "description": "Was embezzling money from a shared business.",
+            "revealedUnderPressure": true
+        },
+        {
+            "id": 4,
+            "description": "Was blackmailed by the victim.",
+            "revealedUnderPressure": false
+        },
+        {
+            "id": 5,
+            "description": "Had previously threatened the victim publicly.",
+            "revealedUnderPressure": false
+        },
+        {
+            "id": 6,
+            "description": "Stole something valuable from the victim.",
+            "revealedUnderPressure": true
+        },
+        {
+            "id": 7,
+            "description": "Was related to the victim but kept it hidden.",
+            "revealedUnderPressure": true
+        },
+        {
+            "id": 8,
+            "description": "Was at the crime scene earlier than claimed.",
+            "revealedUnderPressure": false
+        },
+        {
+            "id": 9,
+            "description": "Tampered with evidence after the crime.",
+            "revealedUnderPressure": false
+        },
+        {
+            "id": 10,
+            "description": "Had a hidden partnership with another suspect.",
+            "revealedUnderPressure": true
+        }
+    ]
+}
