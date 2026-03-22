@@ -190,5 +190,89 @@
             "description": "Had a hidden partnership with another suspect.",
             "revealedUnderPressure": true
         }
-    ]
+    ],
+    "room_pool": [
+        {
+            "id": 1,
+            "name": "Entrance Area",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 2,
+            "name": "Main Hall",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 3,
+            "name": "Social Space",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 4,
+            "name": "Dining Area",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 5,
+            "name": "Work Area",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 6,
+            "name": "Storage Room",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 7,
+            "name": "Utility Room",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 8,
+            "name": "Corridor",
+            "positionState": "COMMON"
+        },
+        {
+            "id": 9,
+            "name": "Private Quarters A",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 10,
+            "name": "Private Quarters B",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 11,
+            "name": "Private Office A",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 12,
+            "name": "Private Office B",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 13,
+            "name": "Restricted Room",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 14,
+            "name": "Outdoor Area",
+            "positionState": "OUTSIDE"
+        },
+        {
+            "id": 15,
+            "name": "Rear Area",
+            "positionState": "OUTSIDE"
+        },
+        {
+            "id": 16,
+            "name": "Incident Room",
+            "positionState": "CRIME_ROOM"
+        }
+    ],
+    "slot_count": 8,
+    "start_slot": "14:00"
 }

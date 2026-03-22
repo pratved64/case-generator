@@ -2,116 +2,8 @@
     "suspects": [
         {
             "id": 0,
-            "name": "Ryan Valdez",
+            "name": "Sara Roman",
             "traits": [
-                {
-                    "id": 4,
-                    "name": "Deceptive",
-                    "description": "Comfortable lying and manipulating others."
-                }
-            ],
-            "secrets": [
-                {
-                    "id": 6,
-                    "description": "Stole something valuable from the victim.",
-                    "revealedUnderPressure": true
-                },
-                {
-                    "id": 3,
-                    "description": "Was embezzling money from a shared business.",
-                    "revealedUnderPressure": true
-                },
-                {
-                    "id": 9,
-                    "description": "Tampered with evidence after the crime.",
-                    "revealedUnderPressure": false
-                }
-            ],
-            "motive": null
-        },
-        {
-            "id": 1,
-            "name": "Rebecca Vincent",
-            "traits": [
-                {
-                    "id": 10,
-                    "name": "Ambitious",
-                    "description": "Driven to rise in status or control."
-                },
-                {
-                    "id": 6,
-                    "name": "Obsessive",
-                    "description": "Fixates intensely on people or goals."
-                }
-            ],
-            "secrets": [
-                {
-                    "id": 3,
-                    "description": "Was embezzling money from a shared business.",
-                    "revealedUnderPressure": true
-                }
-            ],
-            "motive": null
-        },
-        {
-            "id": 2,
-            "name": "Albert Wilson",
-            "traits": [
-                {
-                    "id": 6,
-                    "name": "Obsessive",
-                    "description": "Fixates intensely on people or goals."
-                },
-                {
-                    "id": 7,
-                    "name": "Opportunistic",
-                    "description": "Takes advantage of situations without hesitation."
-                },
-                {
-                    "id": 10,
-                    "name": "Ambitious",
-                    "description": "Driven to rise in status or control."
-                }
-            ],
-            "secrets": [
-                {
-                    "id": 8,
-                    "description": "Was at the crime scene earlier than claimed.",
-                    "revealedUnderPressure": false
-                },
-                {
-                    "id": 10,
-                    "description": "Had a hidden partnership with another suspect.",
-                    "revealedUnderPressure": true
-                }
-            ],
-            "motive": {
-                "id": 3,
-                "name": "Jealousy",
-                "weight": 0.75,
-                "traits_affinity": [
-                    {
-                        "id": 3,
-                        "name": "Insecure",
-                        "description": "Constantly doubts self-worth and fears rejection."
-                    },
-                    {
-                        "id": 6,
-                        "name": "Obsessive",
-                        "description": "Fixates intensely on people or goals."
-                    }
-                ]
-            }
-        },
-        {
-            "id": 3,
-            "name": "Jason Bush",
-            "traits": [
-                {
-                    "id": 9,
-                    "name": "Secretive",
-                    "description": "Keeps personal matters hidden at all costs."
-                },
                 {
                     "id": 1,
                     "name": "Greedy",
@@ -125,31 +17,335 @@
             ],
             "secrets": [
                 {
-                    "id": 8,
-                    "description": "Was at the crime scene earlier than claimed.",
+                    "id": 5,
+                    "description": "Had previously threatened the victim publicly.",
                     "revealedUnderPressure": false
+                },
+                {
+                    "id": 10,
+                    "description": "Had a hidden partnership with another suspect.",
+                    "revealedUnderPressure": true
                 }
             ],
-            "motive": null
-        }
-    ],
-    "solution": {
-        "culpritID": 2,
-        "victimID": 3,
-        "motive": {
-            "id": 3,
-            "name": "Jealousy",
-            "weight": 0.75,
-            "traits_affinity": [
+            "motive": null,
+            "schedule": {
+                "slots": [
+                    {
+                        "slotID": 0,
+                        "timeLabel": "14:30",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 1,
+                        "timeLabel": "15:00",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 2,
+                        "timeLabel": "15:30",
+                        "roomID": 11
+                    },
+                    {
+                        "slotID": 3,
+                        "timeLabel": "16:00",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 4,
+                        "timeLabel": "16:30",
+                        "roomID": 11
+                    },
+                    {
+                        "slotID": 5,
+                        "timeLabel": "17:00",
+                        "roomID": 14
+                    },
+                    {
+                        "slotID": 6,
+                        "timeLabel": "17:30",
+                        "roomID": 8
+                    },
+                    {
+                        "slotID": 7,
+                        "timeLabel": "18:00",
+                        "roomID": 8
+                    }
+                ]
+            }
+        },
+        {
+            "id": 1,
+            "name": "Ryan Smith",
+            "traits": [
+                {
+                    "id": 5,
+                    "name": "Vindictive",
+                    "description": "Holds grudges and seeks retaliation."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 4,
+                    "description": "Was blackmailed by the victim.",
+                    "revealedUnderPressure": false
+                },
+                {
+                    "id": 9,
+                    "description": "Tampered with evidence after the crime.",
+                    "revealedUnderPressure": false
+                },
+                {
+                    "id": 6,
+                    "description": "Stole something valuable from the victim.",
+                    "revealedUnderPressure": true
+                }
+            ],
+            "motive": {
+                "id": 2,
+                "name": "Revenge",
+                "weight": 0.85,
+                "traits_affinity": [
+                    {
+                        "id": 2,
+                        "name": "Hot-headed",
+                        "description": "Quick to anger and prone to impulsive actions."
+                    },
+                    {
+                        "id": 5,
+                        "name": "Vindictive",
+                        "description": "Holds grudges and seeks retaliation."
+                    },
+                    {
+                        "id": 8,
+                        "name": "Resentful",
+                        "description": "Harbors long-standing bitterness."
+                    }
+                ]
+            },
+            "schedule": {
+                "slots": [
+                    {
+                        "slotID": 0,
+                        "timeLabel": "14:30",
+                        "roomID": 14
+                    },
+                    {
+                        "slotID": 1,
+                        "timeLabel": "15:00",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 2,
+                        "timeLabel": "15:30",
+                        "roomID": 8
+                    },
+                    {
+                        "slotID": 3,
+                        "timeLabel": "16:00",
+                        "roomID": 14
+                    },
+                    {
+                        "slotID": 4,
+                        "timeLabel": "16:30",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 5,
+                        "timeLabel": "17:00",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 6,
+                        "timeLabel": "17:30",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 7,
+                        "timeLabel": "18:00",
+                        "roomID": 12
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Larry Wagner",
+            "traits": [
+                {
+                    "id": 2,
+                    "name": "Hot-headed",
+                    "description": "Quick to anger and prone to impulsive actions."
+                },
+                {
+                    "id": 9,
+                    "name": "Secretive",
+                    "description": "Keeps personal matters hidden at all costs."
+                },
+                {
+                    "id": 5,
+                    "name": "Vindictive",
+                    "description": "Holds grudges and seeks retaliation."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 7,
+                    "description": "Was related to the victim but kept it hidden.",
+                    "revealedUnderPressure": true
+                },
                 {
                     "id": 3,
-                    "name": "Insecure",
-                    "description": "Constantly doubts self-worth and fears rejection."
+                    "description": "Was embezzling money from a shared business.",
+                    "revealedUnderPressure": true
                 },
+                {
+                    "id": 1,
+                    "description": "Was deeply in debt to the victim.",
+                    "revealedUnderPressure": true
+                }
+            ],
+            "motive": null,
+            "schedule": {
+                "slots": [
+                    {
+                        "slotID": 0,
+                        "timeLabel": "14:30",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 1,
+                        "timeLabel": "15:00",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 2,
+                        "timeLabel": "15:30",
+                        "roomID": 8
+                    },
+                    {
+                        "slotID": 3,
+                        "timeLabel": "16:00",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 4,
+                        "timeLabel": "16:30",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 5,
+                        "timeLabel": "17:00",
+                        "roomID": 14
+                    },
+                    {
+                        "slotID": 6,
+                        "timeLabel": "17:30",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 7,
+                        "timeLabel": "18:00",
+                        "roomID": 13
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Eric Wade DVM",
+            "traits": [
                 {
                     "id": 6,
                     "name": "Obsessive",
                     "description": "Fixates intensely on people or goals."
+                }
+            ],
+            "secrets": [
+                {
+                    "id": 10,
+                    "description": "Had a hidden partnership with another suspect.",
+                    "revealedUnderPressure": true
+                },
+                {
+                    "id": 8,
+                    "description": "Was at the crime scene earlier than claimed.",
+                    "revealedUnderPressure": false
+                },
+                {
+                    "id": 2,
+                    "description": "Had a secret romantic relationship with the victim.",
+                    "revealedUnderPressure": true
+                }
+            ],
+            "motive": null,
+            "schedule": {
+                "slots": [
+                    {
+                        "slotID": 0,
+                        "timeLabel": "14:30",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 1,
+                        "timeLabel": "15:00",
+                        "roomID": 12
+                    },
+                    {
+                        "slotID": 2,
+                        "timeLabel": "15:30",
+                        "roomID": 11
+                    },
+                    {
+                        "slotID": 3,
+                        "timeLabel": "16:00",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 4,
+                        "timeLabel": "16:30",
+                        "roomID": 11
+                    },
+                    {
+                        "slotID": 5,
+                        "timeLabel": "17:00",
+                        "roomID": 13
+                    },
+                    {
+                        "slotID": 6,
+                        "timeLabel": "17:30",
+                        "roomID": 14
+                    },
+                    {
+                        "slotID": 7,
+                        "timeLabel": "18:00",
+                        "roomID": 12
+                    }
+                ]
+            }
+        }
+    ],
+    "solution": {
+        "culpritID": 1,
+        "victimID": 0,
+        "motive": {
+            "id": 2,
+            "name": "Revenge",
+            "weight": 0.85,
+            "traits_affinity": [
+                {
+                    "id": 2,
+                    "name": "Hot-headed",
+                    "description": "Quick to anger and prone to impulsive actions."
+                },
+                {
+                    "id": 5,
+                    "name": "Vindictive",
+                    "description": "Holds grudges and seeks retaliation."
+                },
+                {
+                    "id": 8,
+                    "name": "Resentful",
+                    "description": "Harbors long-standing bitterness."
                 }
             ]
         },
@@ -159,5 +355,33 @@
             "weight": 0.65,
             "description": "Used for strangulation or restraint."
         }
-    }
+    },
+    "rooms": [
+        {
+            "id": 14,
+            "name": "Outdoor Area",
+            "positionState": "OUTSIDE"
+        },
+        {
+            "id": 13,
+            "name": "Restricted Room",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 12,
+            "name": "Private Office B",
+            "positionState": "CRIME_ROOM"
+        },
+        {
+            "id": 11,
+            "name": "Private Office A",
+            "positionState": "PRIVATE"
+        },
+        {
+            "id": 8,
+            "name": "Corridor",
+            "positionState": "COMMON"
+        }
+    ],
+    "slot_count": 8
 }
